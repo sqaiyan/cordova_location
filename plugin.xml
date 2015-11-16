@@ -50,14 +50,14 @@
 		<config-file target="AndroidManifest.xml" parent="/manifest/application">
 			<service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote"/>
 		</config-file>
-		<source-file src="src/android/locSDK_5.01.jar" target-dir="libs"/>
-		<source-file src="src/android/arm64-v8a/liblocSDK5.so" target-dir="libs/arm64-v8a"/>
-		<source-file src="src/android/armeabi/liblocSDK5.so" target-dir="libs/armeabi"/>
-		<source-file src="src/android/armeabi-v7a/liblocSDK5.so" target-dir="libs/armeabi-v7a"/>
-		<source-file src="src/android/mips/liblocSDK5.so" target-dir="libs/mips"/>
-		<source-file src="src/android/mips64/liblocSDK5.so" target-dir="libs/mips64"/>
-		<source-file src="src/android/x86/liblocSDK5.so" target-dir="libs/x86"/>
-		<source-file src="src/android/x86_64/liblocSDK5.so" target-dir="libs/x86_64"/>
+		<source-file src="src/android/locSDK_6.jar" target-dir="libs"/>
+		<source-file src="src/android/arm64-v8a/liblocSDK6.so" target-dir="libs/arm64-v8a"/>
+		<source-file src="src/android/armeabi/liblocSDK6.so" target-dir="libs/armeabi"/>
+		<source-file src="src/android/armeabi-v7a/liblocSDK6.so" target-dir="libs/armeabi-v7a"/>
+		<source-file src="src/android/mips/liblocSDK6.so" target-dir="libs/mips"/>
+		<source-file src="src/android/mips64/liblocSDK6.so" target-dir="libs/mips64"/>
+		<source-file src="src/android/x86/liblocSDK6.so" target-dir="libs/x86"/>
+		<source-file src="src/android/x86_64/liblocSDK6.so" target-dir="libs/x86_64"/>
         <source-file src="src/android/LocationPlugin.java" target-dir="src/com/qtong/mplatform/cordova" />
     </platform>
 </plugin>
